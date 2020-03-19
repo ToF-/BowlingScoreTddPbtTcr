@@ -1,2 +1,7 @@
-main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+import Test.QuickCheck
+
+main = quickCheck prop_Dummy
+
+
+prop_Dummy :: Int -> Bool
+prop_Dummy x = x == x 
