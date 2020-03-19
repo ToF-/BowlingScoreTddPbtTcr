@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d7e9b17449c06bfbbd76658a13f1c66978ffb88f49f4936c3fad71feb5a9b616
+-- hash: a26bcbd4835641ece675a3bd63cb578423abaeae4bf32ae60af1fe8518e396e1
 
 name:           BowlingScoreTddPbtTcr
 version:        0.1.0.0
@@ -61,4 +61,5 @@ test-suite BowlingScoreTddPbtTcr-test
       BowlingScoreTddPbtTcr
     , QuickCheck
     , base >=4.7 && <5
+    , hspec
   default-language: Haskell2010

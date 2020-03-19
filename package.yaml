@@ -47,3 +47,4 @@ tests:
     dependencies:
     - BowlingScoreTddPbtTcr
     - QuickCheck
+    - hspec

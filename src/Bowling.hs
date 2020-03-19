@@ -2,5 +2,5 @@ module Bowling
 where
 
 score :: [Int] -> Int
-score = sum
+score ts = min 90 (sum ts)
 
