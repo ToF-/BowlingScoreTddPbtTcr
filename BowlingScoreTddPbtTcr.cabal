@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 01c2ed2240e909bc5883a0a435e3897e4d9df5cc9e00a977cdb13f7eaa288c9c
+-- hash: d7e9b17449c06bfbbd76658a13f1c66978ffb88f49f4936c3fad71feb5a9b616
 
 name:           BowlingScoreTddPbtTcr
 version:        0.1.0.0
@@ -27,6 +27,7 @@ source-repository head
 
 library
   exposed-modules:
+      Bowling
       Lib
   other-modules:
       Paths_BowlingScoreTddPbtTcr

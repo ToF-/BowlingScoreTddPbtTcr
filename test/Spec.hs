@@ -1,4 +1,5 @@
 import Test.QuickCheck
+import Bowling
 
 check s p = do
     putStr ("\n" ++ s ++ ": ")
@@ -10,3 +11,6 @@ main = do
 
 prop_Dummy :: Int -> Bool
 prop_Dummy x = x == x 
+
+prop_AverageFramesResultInSumOfThrows ts =
+    score ts == sum ts
