@@ -6,11 +6,8 @@ check s p = do
     quickCheck p
 
 main = do
-    check "dummy" prop_Dummy
-
-
-prop_Dummy :: Int -> Bool
-prop_Dummy x = x == x 
+    check "average frames result in sum of throws"
+        prop_AverageFramesResultInSumOfThrows
 
 prop_AverageFramesResultInSumOfThrows ts =
     score ts == sum ts
